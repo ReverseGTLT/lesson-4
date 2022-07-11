@@ -1,0 +1,53 @@
+.container {
+    background-color: rgb(201, 167, 167);
+}
+
+/*1. (1)*/
+h3 {
+    color: aqua;
+}
+
+/*2. (100)*/
+#id {
+    color: blue;
+}
+
+/*3. (10)*/
+.class {
+    color: blueviolet;
+}
+
+/*4. (111)*/
+p.one#two {
+    color: brown;
+    text-decoration: underline;
+}
+ /*5. (11)*/
+p.three {
+    color: burlywood;
+}
+
+ /*6. (101)*/
+p#four {
+    color: cadetblue;
+}
+
+/*7. (110)*/
+.eight#nine {
+    color: chartreuse;
+}
+
+/*8. (11)*/
+p[id="five"] {
+    color: coral;
+}
+
+/*9. (11)*/
+.six a {
+    color: cornsilk;
+}
+
+/*10. (11)*/
+.seven > a {
+    color: pink;
+}

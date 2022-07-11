@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>1. (Вес 1) Селектор по тегу</h3>
+        <p id="id">2. (Вес 100) Селектор по #id</p>
+        <p class="class">3. (Вес 10) Селектор по классу</p>
+        <p class="one" id="two">4. (Вес 111) Селектор по тегу, классу и #id</p>
+        <p class="three">5. (Вес 11) Селектор по тегу и классу</p>
+        <p id="four">6. (Вес 101) Селектор по тегу и #id</p>
+        <p class="eight" id="nine">7. (Вес 110) Селектор по классу и #id</p>
+        <p id="five">8. (Вес 11) Селектор по тегу и атрибуту [id]</p>
+        <div class="six">9. (Вес 11) Селектор потомков, в данном случае двух тегов "а" -
+            <a href="">первый тег "а" поменял цвет,</a>
+            <i><a href=""> и второй тег "а" поменял цвет</a></i>
+        </div>
+        <div class="seven">10. (Вес 11) Селектор дочерний, применяется к первому тегу "a"
+            <a>первый тег "a" поменял цвет</a>
+            <i>
+                <a>второй тег "a" не поменял цвет</a>
+            </i>
+        </div>
+
+    </div>
+</body>
+
+</html>
